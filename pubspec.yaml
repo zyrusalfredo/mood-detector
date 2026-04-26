@@ -1,0 +1,31 @@
+name: mood_detector
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sensors_plus: ^6.1.1
+  ambient_light: ^0.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  image_path: "assets/app_icons/logo_mood.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#3c3944"
+  adaptive_icon_foreground: "assets/app_icons/logo_mood.png"
+  web:
+    generate: false
